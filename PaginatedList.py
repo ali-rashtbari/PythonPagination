@@ -27,7 +27,7 @@ defs_name_dict = {
 
 # pagination list as paginated lists ---
 for key, value in defs_name_dict.items():
-    counter = 20
+    counter = 20  # page size ---
     start = 0
     while(True):
         end = start + counter
